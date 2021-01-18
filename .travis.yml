@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.3.3
+  - 2.6.6
 
 script:
   - bundle exec rake db:create:all
@@ -10,4 +10,4 @@ script:
   - ruby -S bundle exec cucumber --profile default
 
 services:
-  - postgresql
+  - sqlite3
