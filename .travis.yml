@@ -10,4 +10,4 @@ script:
   - ruby -S bundle exec cucumber --profile default
 
 services:
-  - sqlite3
+  - sqlite
